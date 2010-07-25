@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Phone Pony Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Frequent Contacts</string>
+    <string name="wdg_calls_name">Frequent Calls</string>
+    <string name="wdg_sms_name">Frequent Messages</string>
+
+    <string name="info_str">Welcome</string>
+    <string name="calls_str">Calls</string>
+    <string name="sms_str">Messages</string>
+
+    <string name="wdg_tab_text">Instead of \"running\" Frequent Contacts application, you can add two widgets to your
+        home screen. The first one is \"Frequent Calls\", where you can view and directly dial to your most frequently
+        called contacts. Second one is "Frequent Messages",
+        where you can view and send messages to frequently messaged contacts.\n
+        Insert a widget, long press in an empty area on the home screen, select \"Widgets\" and select either \"Frequent
+        Calls\" or \"Frequent Messages\". You can select both of them by performing this process twice.
+        \n\nFrequent Contacts v1.1.2 \u00A9 2010
+        \n\nwww.phonepony.com
+
+    </string>
+
+    <!-- Single-character overlay for home phone numbers when creating desktop shortcuts -->
+    <string name="type_short_home">H</string>
+    <!-- Single-character overlay for mobile phone numbers when creating desktop shortcuts -->
+    <string name="type_short_mobile">M</string>
+    <!-- Single-character overlay for work phone numbers when creating desktop shortcuts -->
+    <string name="type_short_work">W</string>
+    <!-- Single-character overlay for pager phone numbers when creating desktop shortcuts -->
+    <string name="type_short_pager">P</string>
+    <!-- Single-character overlay for other phone numbers when creating desktop shortcuts -->
+    <string name="type_short_other">O</string>
+
+</resources>
