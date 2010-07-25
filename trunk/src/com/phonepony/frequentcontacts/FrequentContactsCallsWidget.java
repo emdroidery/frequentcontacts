@@ -24,19 +24,7 @@ import com.phonepony.Log;
 
 
 /**
- * A widget provider.  We have a string that we pull from a preference in order to show
- * the configuration settings and the current time when the widget was updated.  We also
- * register a BroadcastReceiver for time-changed and timezone-changed broadcasts, and
- * update then too.
- * <p/>
- * <p>See also the following files:
- * <ul>
- * <li>ExampleAppWidgetConfigure.java</li>
- * <li>ExampleBroadcastReceiver.java</li>
- * <li>res/layout/appwidget_configure.xml</li>
- * <li>res/layout/appwidget_provider.xml</li>
- * <li>res/xml/appwidget_provider.xml</li>
- * </ul>
+ * 
  */
 public class FrequentContactsCallsWidget extends AppWidgetProvider {
     // log tag
