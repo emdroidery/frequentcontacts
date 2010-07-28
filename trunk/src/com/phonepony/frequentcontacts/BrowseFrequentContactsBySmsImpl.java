@@ -24,7 +24,7 @@ import android.net.Uri;
 public final class BrowseFrequentContactsBySmsImpl implements IBrowseFrequentContacts {
 
     public Intent getActionIntent(String phoneNumber) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("smsto:" + phoneNumber));
+        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:" + phoneNumber));
         return intent;
     }
 
