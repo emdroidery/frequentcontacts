@@ -20,7 +20,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.phonepony.frequentcontacts"
-          android:versionCode="7" android:versionName="1.7">
+          android:versionCode="8" android:versionName="1.8">
     <application android:label="@string/app_name" android:icon="@drawable/icon">
         <activity
                 android:name=".FrequentContactsTabApp"
@@ -50,16 +50,16 @@
             </intent-filter>
         </receiver>
 
-        <receiver
-                android:name=".FrequentContactsSmsWidget"
-                android:label="@string/wdg_sms_name"
-                >
-            <meta-data android:name="android.appwidget.provider"
-                       android:resource="@xml/appwidget_provider"/>
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
-            </intent-filter>
-        </receiver>
+        <!--<receiver-->
+                <!--android:name=".FrequentContactsSmsWidget"-->
+                <!--android:label="@string/wdg_sms_name"-->
+                <!-->-->
+            <!--<meta-data android:name="android.appwidget.provider"-->
+                       <!--android:resource="@xml/appwidget_provider"/>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
 
         <!-- ************************************* -->
         <!--      SERVICES                           -->

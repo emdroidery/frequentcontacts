@@ -21,6 +21,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.ContactsContract;
+import com.phonepony.Log;
 
 import java.util.*;
 
@@ -103,8 +104,11 @@ public class BrowseFrequentContactsBase {
                 String storedNumber = cursorInPhoneLookup.getString(cursorInPhoneLookup.getColumnIndex(ContactsContract.PhoneLookup.NUMBER));
 
                 String lookupKey = cursorInPhoneLookup.getString(cursorInPhoneLookup.getColumnIndex(ContactsContract.PhoneLookup.LOOKUP_KEY));
+                Log.d(TAG, "lookupKey = " + lookupKey);
                 Uri contactLookupUri = Uri.withAppendedPath(ContactsContract.Contacts.CONTENT_LOOKUP_URI, lookupKey);
+                Log.d(TAG, "contactLookupUri = " + contactLookupUri);
                 Uri contactUri = ContactsContract.Contacts.lookupContact(context.getContentResolver(), contactLookupUri);
+                Log.d(TAG, "contactUri = " + contactUri);
                 /**
                  * If code gets here, this phone number associated with some contact.
                  * We need to determine now if the dialed number has the same form as stored number

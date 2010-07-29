@@ -45,12 +45,12 @@ public class FrequentContactsTabApp extends TabActivity {
                         getResources().getDrawable(R.drawable.ic_tab_dialer)).setContent(intent);
         tabHost.addTab(spec);
 
-        intent = new Intent().setClass(this, BrowseFrequentContactsActivity.class);
-        intent.putExtra(Constants.ACTIVITY_TYPE_NAME, Constants.ACTIVITY_TYPE.SMS.name());
-        spec = tabHost.newTabSpec(getString(R.string.sms_str)).
-                setIndicator(getString(R.string.sms_str),
-                        getResources().getDrawable(R.drawable.ic_tab_recent)).setContent(intent);
-        tabHost.addTab(spec);
+//        intent = new Intent().setClass(this, BrowseFrequentContactsActivity.class);
+//        intent.putExtra(Constants.ACTIVITY_TYPE_NAME, Constants.ACTIVITY_TYPE.SMS.name());
+//        spec = tabHost.newTabSpec(getString(R.string.sms_str)).
+//                setIndicator(getString(R.string.sms_str),
+//                        getResources().getDrawable(R.drawable.ic_tab_recent)).setContent(intent);
+//        tabHost.addTab(spec);
 
         tabHost.setCurrentTab(0);
     }

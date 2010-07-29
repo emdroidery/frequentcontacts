@@ -25,12 +25,13 @@
 
     <string name="wdg_tab_text">Instead of \"running\" Frequent Contacts application, you can add two widgets to your
         home screen. The first one is \"Frequent Calls\", where you can view and directly dial to your most frequently
-        called contacts. Second one is "Frequent Messages",
-        where you can view and send messages to frequently messaged contacts.\n
-        Insert a widget, long press in an empty area on the home screen, select \"Widgets\" and select either \"Frequent
-        Calls\" or \"Frequent Messages\". You can select both of them by performing this process twice.
-        \n\nFrequent Contacts v1.1.2 \u00A9 2010
+        called contacts. \n
+        To insert a widget, long press in an empty area on the home screen, select \"Widgets\" and select \"Frequent
+        Calls\".
+        1.8 Removed messages support because it can\'t work on all phone types. Sorry.
+        \n\nFrequent Contacts v1.8 \u00A9 2010
         \n\nwww.phonepony.com
+        \nhttp://code.google.com/p/frequentcontacts
 
     </string>
 

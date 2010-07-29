@@ -78,7 +78,12 @@ public class PhoneBitmapCreator {
 
         //Bitmap photo = loadContactPhoto(contactUri, null);
         Bitmap photo = null;
-        InputStream input = ContactsContract.Contacts.openContactPhotoInputStream(context.getContentResolver(), contactUri);
+        InputStream input = null;
+        try {
+            input = ContactsContract.Contacts.openContactPhotoInputStream(context.getContentResolver(), contactUri);
+        } catch (Exception e) {
+            // sometimes happens
+        }
         if (input != null) {
             photo = BitmapFactory.decodeStream(input);
         }

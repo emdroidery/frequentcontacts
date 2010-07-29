@@ -20,7 +20,7 @@ package com.phonepony;
  *
  */
 public class Log {
-    private static final boolean PRODUCTION_MODE = false;
+    private static final boolean PRODUCTION_MODE = true;
 
     private Log() {
     }
